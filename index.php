@@ -5,7 +5,7 @@
   $url = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=298&date=".$d."%22%20-H%20%22accept:%20application/json%22%20-H%20%22Accept-Language:%20hi_IN%22";
 
 
-  header( "refresh:15;url=search.php" );
+  header( "refresh:15;url=index.php" );
   $curl = curl_init();
 
   curl_setopt_array($curl, array(

@@ -3,7 +3,7 @@
     echo "<b><font color='green'><h2>AUTOMATIC REFRESH AFTER EVERY 15 SECONDS :)</h2></font></b><br><h3>Showing results of date : ".$d." + 7 Days Details</h3><hr>";
 
 
-  header( "refresh:2;url=search.php" );
+  header( "refresh:2;url=index.php" );
 
 
 $curl = curl_init();

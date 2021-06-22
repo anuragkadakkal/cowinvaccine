@@ -1,9 +1,9 @@
 <?php
     $d=date('d-m-Y');
-    echo "<br><b><font color='green'><h2>AUTOMATIC REFRESH AFTER EVERY 15 SECONDS :)</h2></font></b><br><button class='btn btn-primary'>Reload</button><h3>Showing results of date : ".$d." + 7 Days Details</h3><hr>";
+    echo "<br><b><font color='green'><h3>AUTOMATIC REFRESH AFTER EVERY 15 SECONDS :)</h3></font></b><br><a><button class='btn btn-primary'>Reload</button></a><br><h4>Showing results of date : ".$d." + 7 Days Details</h4><hr>";
 
 
-  header( "refresh:10;url=index.php" );
+  //header( "refresh:10;url=index.php" );
 
 
 $curl = curl_init();

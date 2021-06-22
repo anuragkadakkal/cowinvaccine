@@ -1,6 +1,6 @@
 <?php
     $d=date('d-m-Y');
-    echo "<b><font color='green'><h2>AUTOMATIC REFRESH AFTER EVERY 15 SECONDS :)</h2></font></b><br><h3>Showing results of date : ".$d." + 7 Days Details</h3><hr>";
+    echo "<b><font color='green'><h2>CoWin Vaccination Availability Details - Kollam District</h2></font></b><br><a href='index.php'><button>Reload</button></a><h3>Showing results of date : ".$d." + 7 Days Details</h3><hr>";
 
   $url = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=298&date=".$d."%22%20-H%20%22accept:%20application/json%22%20-H%20%22Accept-Language:%20hi_IN%22";
 

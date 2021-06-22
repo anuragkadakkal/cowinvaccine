@@ -1,6 +1,6 @@
 <?php
     $d=date('d-m-Y');
-    echo "<br><b><font color='green'><h3>CoWin Vaccination Availability - Kollam District</h3></font></b><br><a><button class='btn btn-primary'>Reload</button></a><br><h4>Showing results of date : ".$d." + 7 Days Details</h4><hr>";
+    echo "<br><b><font color='green'><h3>CoWin Vaccination Availability - Kollam District</h3></font></b><br><a href='index.php'><button class='btn btn-primary'>Reload</button></a><br><h4>Showing results of date : ".$d." + 7 Days Details</h4><hr>";
 
 
   //header( "refresh:10;url=index.php" );

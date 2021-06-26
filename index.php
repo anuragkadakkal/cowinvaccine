@@ -3,13 +3,13 @@
     echo "<center><br><b><font color='green'><h3>CoWin Vaccination Availability<br></h3><h4>Kollam District</h4></font></b><br><a href='index.php'><button class='btn btn-primary btn-block'>Reload</button></a><br><br><h4>Showing results of date : ".$d." + 7 Days Details</h4><hr></center>";
 
 
-  //header( "refresh:10;url=index.php" );
+  //header( "refresh:10;url=index.php" );tvm = 296
 
 
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=296&date=".$d,
+  CURLOPT_URL => "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=298&date=".$d,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
